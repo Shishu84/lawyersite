@@ -168,10 +168,43 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    .instagram {
+  width: 150px;
+  height: 150px;
+  border-radius: 35px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+/* Inner white rounded square */
+.instagram::before {
+  content: '';
+  width: 120px;
+  height: 120px;
+  border: 10px solid #fff;
+  border-radius: 32px;
+  position: absolute;
+}
+
+/* Center camera circle and top-right dot */
+.instagram::after {
+  content: '';
+  width: 45px;
+  height: 45px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 45px -45px 0 -15px #fff; /* Creates the small dot */
+}
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
+
 
 
 
