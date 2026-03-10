@@ -13,7 +13,7 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 }
 
 .whatsapp-float:hover {
-    background-color: #128c7e; /* Darker green on hover */
+    background-color:  #E1306C; /* Darker green on hover */
     color: white;
     transform: scale(1.1); /* Slight zoom effect */
 }
@@ -80,4 +80,5 @@ box-shadow: 0 5px 10px rgba(0,0,0,0.3);
 
     
 }
+
 
